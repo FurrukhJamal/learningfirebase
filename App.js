@@ -36,7 +36,7 @@ export default function App() {
           // User is signed in, see docs for a list of available properties
           // https://firebase.google.com/docs/reference/js/firebase.User
           const uid = user.uid;
-          console.log("uid:", uid)
+          // console.log("uid:", uid)
           
           async function test(id){
             console.log("Function called")
